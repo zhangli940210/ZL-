@@ -10,6 +10,18 @@
 		182E2A8F1C8C89FE00836441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182E2A8E1C8C89FE00836441 /* Assets.xcassets */; };
 		1880F6E71C905664005B2456 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6D31C905664005B2456 /* AppDelegate.m */; };
 		1880F6E81C905664005B2456 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6D61C905664005B2456 /* main.m */; };
+		1880F6EB1C9058D6005B2456 /* LZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6EA1C9058D6005B2456 /* LZTabBarController.m */; };
+		1880F6EE1C90595D005B2456 /* LZNewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6ED1C90595D005B2456 /* LZNewsTableViewController.m */; };
+		1880F6F11C90597D005B2456 /* LZReadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6F01C90597D005B2456 /* LZReadTableViewController.m */; };
+		1880F6F41C905993005B2456 /* LZProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6F31C905993005B2456 /* LZProfileTableViewController.m */; };
+		1880F6F71C9059A0005B2456 /* LZSeeListenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6F61C9059A0005B2456 /* LZSeeListenTableViewController.m */; };
+		1880F6FA1C9059AC005B2456 /* LZThemeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6F91C9059AC005B2456 /* LZThemeTableViewController.m */; };
+		1880F7011C9059F0005B2456 /* UIBarButtonItem+LZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6FC1C9059F0005B2456 /* UIBarButtonItem+LZExtension.m */; };
+		1880F7021C9059F0005B2456 /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6FE1C9059F0005B2456 /* UIImage+image.m */; };
+		1880F7031C9059F0005B2456 /* UIView+LZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F7001C9059F0005B2456 /* UIView+LZExtension.m */; };
+		1880F7091C905A6B005B2456 /* LZBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F7061C905A6B005B2456 /* LZBtn.m */; };
+		1880F70A1C905A6B005B2456 /* LZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F7081C905A6B005B2456 /* LZTabBar.m */; };
+		1880F70D1C905AB3005B2456 /* LZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F70C1C905AB3005B2456 /* LZNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,31 @@
 		1880F6D21C905664005B2456 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1880F6D31C905664005B2456 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1880F6D61C905664005B2456 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1880F6E91C9058D6005B2456 /* LZTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTabBarController.h; sourceTree = "<group>"; };
+		1880F6EA1C9058D6005B2456 /* LZTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTabBarController.m; sourceTree = "<group>"; };
+		1880F6EC1C90595D005B2456 /* LZNewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZNewsTableViewController.h; sourceTree = "<group>"; };
+		1880F6ED1C90595D005B2456 /* LZNewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZNewsTableViewController.m; sourceTree = "<group>"; };
+		1880F6EF1C90597D005B2456 /* LZReadTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZReadTableViewController.h; sourceTree = "<group>"; };
+		1880F6F01C90597D005B2456 /* LZReadTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZReadTableViewController.m; sourceTree = "<group>"; };
+		1880F6F21C905993005B2456 /* LZProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZProfileTableViewController.h; sourceTree = "<group>"; };
+		1880F6F31C905993005B2456 /* LZProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZProfileTableViewController.m; sourceTree = "<group>"; };
+		1880F6F51C9059A0005B2456 /* LZSeeListenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSeeListenTableViewController.h; sourceTree = "<group>"; };
+		1880F6F61C9059A0005B2456 /* LZSeeListenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSeeListenTableViewController.m; sourceTree = "<group>"; };
+		1880F6F81C9059AC005B2456 /* LZThemeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZThemeTableViewController.h; sourceTree = "<group>"; };
+		1880F6F91C9059AC005B2456 /* LZThemeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZThemeTableViewController.m; sourceTree = "<group>"; };
+		1880F6FB1C9059F0005B2456 /* UIBarButtonItem+LZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+LZExtension.h"; sourceTree = "<group>"; };
+		1880F6FC1C9059F0005B2456 /* UIBarButtonItem+LZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+LZExtension.m"; sourceTree = "<group>"; };
+		1880F6FD1C9059F0005B2456 /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		1880F6FE1C9059F0005B2456 /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
+		1880F6FF1C9059F0005B2456 /* UIView+LZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LZExtension.h"; sourceTree = "<group>"; };
+		1880F7001C9059F0005B2456 /* UIView+LZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LZExtension.m"; sourceTree = "<group>"; };
+		1880F7041C905A12005B2456 /* LZNews.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZNews.pch; sourceTree = "<group>"; };
+		1880F7051C905A6B005B2456 /* LZBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBtn.h; sourceTree = "<group>"; };
+		1880F7061C905A6B005B2456 /* LZBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBtn.m; sourceTree = "<group>"; };
+		1880F7071C905A6B005B2456 /* LZTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTabBar.h; sourceTree = "<group>"; };
+		1880F7081C905A6B005B2456 /* LZTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTabBar.m; sourceTree = "<group>"; };
+		1880F70B1C905AB3005B2456 /* LZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZNavigationController.h; sourceTree = "<group>"; };
+		1880F70C1C905AB3005B2456 /* LZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +99,7 @@
 			children = (
 				182E2A8E1C8C89FE00836441 /* Assets.xcassets */,
 				182E2A931C8C89FE00836441 /* Info.plist */,
+				1880F7041C905A12005B2456 /* LZNews.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -71,11 +109,11 @@
 			children = (
 				1880F6C91C905664005B2456 /* Main */,
 				1880F6CD1C905664005B2456 /* News(新闻) */,
-				1880F6D11C905664005B2456 /* Others */,
 				1880F6D71C905664005B2456 /* Profile(我) */,
 				1880F6DB1C905664005B2456 /* Read(阅读) */,
 				1880F6DF1C905664005B2456 /* SeeListen(视听) */,
 				1880F6E31C905664005B2456 /* Theme(话题) */,
+				1880F6D11C905664005B2456 /* Others */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -93,6 +131,10 @@
 		1880F6CA1C905664005B2456 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1880F6E91C9058D6005B2456 /* LZTabBarController.h */,
+				1880F6EA1C9058D6005B2456 /* LZTabBarController.m */,
+				1880F70B1C905AB3005B2456 /* LZNavigationController.h */,
+				1880F70C1C905AB3005B2456 /* LZNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -107,6 +149,10 @@
 		1880F6CC1C905664005B2456 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1880F7051C905A6B005B2456 /* LZBtn.h */,
+				1880F7061C905A6B005B2456 /* LZBtn.m */,
+				1880F7071C905A6B005B2456 /* LZTabBar.h */,
+				1880F7081C905A6B005B2456 /* LZTabBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -124,6 +170,8 @@
 		1880F6CE1C905664005B2456 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1880F6EC1C90595D005B2456 /* LZNewsTableViewController.h */,
+				1880F6ED1C90595D005B2456 /* LZNewsTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -145,11 +193,11 @@
 		1880F6D11C905664005B2456 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				1880F6D21C905664005B2456 /* AppDelegate.h */,
-				1880F6D31C905664005B2456 /* AppDelegate.m */,
 				1880F6D41C905664005B2456 /* Category */,
 				1880F6D51C905664005B2456 /* Lib */,
 				1880F6D61C905664005B2456 /* main.m */,
+				1880F6D21C905664005B2456 /* AppDelegate.h */,
+				1880F6D31C905664005B2456 /* AppDelegate.m */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -157,6 +205,12 @@
 		1880F6D41C905664005B2456 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				1880F6FB1C9059F0005B2456 /* UIBarButtonItem+LZExtension.h */,
+				1880F6FC1C9059F0005B2456 /* UIBarButtonItem+LZExtension.m */,
+				1880F6FD1C9059F0005B2456 /* UIImage+image.h */,
+				1880F6FE1C9059F0005B2456 /* UIImage+image.m */,
+				1880F6FF1C9059F0005B2456 /* UIView+LZExtension.h */,
+				1880F7001C9059F0005B2456 /* UIView+LZExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -181,6 +235,8 @@
 		1880F6D81C905664005B2456 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1880F6F21C905993005B2456 /* LZProfileTableViewController.h */,
+				1880F6F31C905993005B2456 /* LZProfileTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -212,6 +268,8 @@
 		1880F6DC1C905664005B2456 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1880F6EF1C90597D005B2456 /* LZReadTableViewController.h */,
+				1880F6F01C90597D005B2456 /* LZReadTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -243,6 +301,8 @@
 		1880F6E01C905664005B2456 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1880F6F51C9059A0005B2456 /* LZSeeListenTableViewController.h */,
+				1880F6F61C9059A0005B2456 /* LZSeeListenTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -274,6 +334,8 @@
 		1880F6E41C905664005B2456 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1880F6F81C9059AC005B2456 /* LZThemeTableViewController.h */,
+				1880F6F91C9059AC005B2456 /* LZThemeTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -361,8 +423,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1880F7091C905A6B005B2456 /* LZBtn.m in Sources */,
+				1880F7011C9059F0005B2456 /* UIBarButtonItem+LZExtension.m in Sources */,
+				1880F6EE1C90595D005B2456 /* LZNewsTableViewController.m in Sources */,
+				1880F6EB1C9058D6005B2456 /* LZTabBarController.m in Sources */,
 				1880F6E81C905664005B2456 /* main.m in Sources */,
+				1880F70D1C905AB3005B2456 /* LZNavigationController.m in Sources */,
+				1880F6F71C9059A0005B2456 /* LZSeeListenTableViewController.m in Sources */,
+				1880F6F41C905993005B2456 /* LZProfileTableViewController.m in Sources */,
+				1880F6F11C90597D005B2456 /* LZReadTableViewController.m in Sources */,
+				1880F7031C9059F0005B2456 /* UIView+LZExtension.m in Sources */,
+				1880F7021C9059F0005B2456 /* UIImage+image.m in Sources */,
+				1880F70A1C905A6B005B2456 /* LZTabBar.m in Sources */,
 				1880F6E71C905664005B2456 /* AppDelegate.m in Sources */,
+				1880F6FA1C9059AC005B2456 /* LZThemeTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +528,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LZNews/LZNews.pch;
 				INFOPLIST_FILE = LZNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = m14a.cn.LZNews;
@@ -466,6 +542,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LZNews/LZNews.pch;
 				INFOPLIST_FILE = LZNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = m14a.cn.LZNews;
