@@ -46,13 +46,9 @@
 - (void)addGroup1
 {
     LZArrowItem *item1 = [LZArrowItem settingRowItemWithImage:nil title:@"索隆1"];
-//    LZArrowItem *item2 = [LZArrowItem settingRowItemWithImage:nil title:@"索隆2"];
     LZRightImageItem *item2 = [LZRightImageItem settingRowItemWithImage:nil title:@"路飞"];
     
     item1.detailTitle = @"索隆";
-//    item2.detailTitle = @"索隆";
-    
-//    item2.desClass = [LZScoreViewController class];
     // 创建一个行数组,装的是行模型
     NSArray *rowArray = @[item1, item2];
     // 创建一个组模型

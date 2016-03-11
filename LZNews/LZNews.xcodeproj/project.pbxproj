@@ -15,6 +15,10 @@
 		18042D581C92435900BD3AFE /* LZSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042D571C92435900BD3AFE /* LZSettingCell.m */; };
 		18042D5B1C9243F300BD3AFE /* LZSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042D5A1C9243F300BD3AFE /* LZSettingTableViewController.m */; };
 		18042D841C925E7800BD3AFE /* LZRightImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042D831C925E7800BD3AFE /* LZRightImageItem.m */; };
+		18042E6D1C93338800BD3AFE /* LZNewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042E681C93338800BD3AFE /* LZNewFeatureViewController.m */; };
+		18042E6E1C93338800BD3AFE /* LZNewFeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042E6C1C93338800BD3AFE /* LZNewFeatureCell.m */; };
+		18042E761C9333B200BD3AFE /* LZRootTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042E721C9333B200BD3AFE /* LZRootTool.m */; };
+		18042E771C9333B200BD3AFE /* LZSaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042E751C9333B200BD3AFE /* LZSaveTool.m */; };
 		182E2A8F1C8C89FE00836441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182E2A8E1C8C89FE00836441 /* Assets.xcassets */; };
 		1880F6E71C905664005B2456 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6D31C905664005B2456 /* AppDelegate.m */; };
 		1880F6E81C905664005B2456 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6D61C905664005B2456 /* main.m */; };
@@ -49,6 +53,14 @@
 		18042D5A1C9243F300BD3AFE /* LZSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSettingTableViewController.m; sourceTree = "<group>"; };
 		18042D821C925E7800BD3AFE /* LZRightImageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZRightImageItem.h; sourceTree = "<group>"; };
 		18042D831C925E7800BD3AFE /* LZRightImageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZRightImageItem.m; sourceTree = "<group>"; };
+		18042E671C93338800BD3AFE /* LZNewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZNewFeatureViewController.h; sourceTree = "<group>"; };
+		18042E681C93338800BD3AFE /* LZNewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZNewFeatureViewController.m; sourceTree = "<group>"; };
+		18042E6B1C93338800BD3AFE /* LZNewFeatureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZNewFeatureCell.h; sourceTree = "<group>"; };
+		18042E6C1C93338800BD3AFE /* LZNewFeatureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZNewFeatureCell.m; sourceTree = "<group>"; };
+		18042E711C9333B200BD3AFE /* LZRootTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZRootTool.h; sourceTree = "<group>"; };
+		18042E721C9333B200BD3AFE /* LZRootTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZRootTool.m; sourceTree = "<group>"; };
+		18042E741C9333B200BD3AFE /* LZSaveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSaveTool.h; sourceTree = "<group>"; };
+		18042E751C9333B200BD3AFE /* LZSaveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSaveTool.m; sourceTree = "<group>"; };
 		182E2A7F1C8C89FE00836441 /* LZNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		182E2A8E1C8C89FE00836441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182E2A931C8C89FE00836441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -140,6 +152,68 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		18042E651C93338800BD3AFE /* NewFeature(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				18042E661C93338800BD3AFE /* Controller */,
+				18042E691C93338800BD3AFE /* Model */,
+				18042E6A1C93338800BD3AFE /* View */,
+			);
+			path = "NewFeature(新特性)";
+			sourceTree = "<group>";
+		};
+		18042E661C93338800BD3AFE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18042E671C93338800BD3AFE /* LZNewFeatureViewController.h */,
+				18042E681C93338800BD3AFE /* LZNewFeatureViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18042E691C93338800BD3AFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18042E6A1C93338800BD3AFE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18042E6B1C93338800BD3AFE /* LZNewFeatureCell.h */,
+				18042E6C1C93338800BD3AFE /* LZNewFeatureCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18042E6F1C9333B200BD3AFE /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				18042E701C9333B200BD3AFE /* Root(根控制器业务类) */,
+				18042E731C9333B200BD3AFE /* Save(存储业务类) */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		18042E701C9333B200BD3AFE /* Root(根控制器业务类) */ = {
+			isa = PBXGroup;
+			children = (
+				18042E711C9333B200BD3AFE /* LZRootTool.h */,
+				18042E721C9333B200BD3AFE /* LZRootTool.m */,
+			);
+			path = "Root(根控制器业务类)";
+			sourceTree = "<group>";
+		};
+		18042E731C9333B200BD3AFE /* Save(存储业务类) */ = {
+			isa = PBXGroup;
+			children = (
+				18042E741C9333B200BD3AFE /* LZSaveTool.h */,
+				18042E751C9333B200BD3AFE /* LZSaveTool.m */,
+			);
+			path = "Save(存储业务类)";
+			sourceTree = "<group>";
+		};
 		182E2A761C8C89FE00836441 = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +252,8 @@
 		1880F6C81C905664005B2456 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				18042E6F1C9333B200BD3AFE /* Tool */,
+				18042E651C93338800BD3AFE /* NewFeature(新特性) */,
 				18042D431C92431800BD3AFE /* Setting(设置) */,
 				1880F6C91C905664005B2456 /* Main */,
 				1880F6CD1C905664005B2456 /* News(新闻) */,
@@ -497,9 +573,11 @@
 			files = (
 				18042D491C92434600BD3AFE /* LZBaseSettingViewController.m in Sources */,
 				1880F7091C905A6B005B2456 /* LZBtn.m in Sources */,
+				18042E771C9333B200BD3AFE /* LZSaveTool.m in Sources */,
 				1880F7011C9059F0005B2456 /* UIBarButtonItem+LZExtension.m in Sources */,
 				1880F6EE1C90595D005B2456 /* LZNewsTableViewController.m in Sources */,
 				1880F6EB1C9058D6005B2456 /* LZTabBarController.m in Sources */,
+				18042E761C9333B200BD3AFE /* LZRootTool.m in Sources */,
 				1880F6E81C905664005B2456 /* main.m in Sources */,
 				1880F70D1C905AB3005B2456 /* LZNavigationController.m in Sources */,
 				1880F6F71C9059A0005B2456 /* LZSeeListenTableViewController.m in Sources */,
@@ -511,6 +589,8 @@
 				18042D531C92434F00BD3AFE /* LZSettingGroupItem.m in Sources */,
 				18042D581C92435900BD3AFE /* LZSettingCell.m in Sources */,
 				18042D551C92434F00BD3AFE /* LZSwitchItem.m in Sources */,
+				18042E6D1C93338800BD3AFE /* LZNewFeatureViewController.m in Sources */,
+				18042E6E1C93338800BD3AFE /* LZNewFeatureCell.m in Sources */,
 				1880F7021C9059F0005B2456 /* UIImage+image.m in Sources */,
 				1880F70A1C905A6B005B2456 /* LZTabBar.m in Sources */,
 				1880F6E71C905664005B2456 /* AppDelegate.m in Sources */,

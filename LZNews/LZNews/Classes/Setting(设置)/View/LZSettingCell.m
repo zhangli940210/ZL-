@@ -47,7 +47,7 @@
         UISwitch *sw = [[UISwitch alloc] init];
         sw.on = swItem.isChoose;
         self.accessoryView = sw;
-    }else {
+    }else if ([rowItem isKindOfClass:[LZRightImageItem class]]){
         LZRightImageItem *riItem = (LZRightImageItem *)rowItem;
         self.accessoryView = riItem.rightBtn;
     }
