@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18042D491C92434600BD3AFE /* LZBaseSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042D481C92434600BD3AFE /* LZBaseSettingViewController.m */; };
+		18042D521C92434F00BD3AFE /* LZArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042D4B1C92434F00BD3AFE /* LZArrowItem.m */; };
+		18042D531C92434F00BD3AFE /* LZSettingGroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042D4D1C92434F00BD3AFE /* LZSettingGroupItem.m */; };
+		18042D541C92434F00BD3AFE /* LZSettingRowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042D4F1C92434F00BD3AFE /* LZSettingRowItem.m */; };
+		18042D551C92434F00BD3AFE /* LZSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042D511C92434F00BD3AFE /* LZSwitchItem.m */; };
+		18042D581C92435900BD3AFE /* LZSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042D571C92435900BD3AFE /* LZSettingCell.m */; };
+		18042D5B1C9243F300BD3AFE /* LZSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042D5A1C9243F300BD3AFE /* LZSettingTableViewController.m */; };
+		18042D841C925E7800BD3AFE /* LZRightImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042D831C925E7800BD3AFE /* LZRightImageItem.m */; };
 		182E2A8F1C8C89FE00836441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182E2A8E1C8C89FE00836441 /* Assets.xcassets */; };
 		1880F6E71C905664005B2456 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6D31C905664005B2456 /* AppDelegate.m */; };
 		1880F6E81C905664005B2456 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6D61C905664005B2456 /* main.m */; };
@@ -25,6 +33,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18042D471C92434600BD3AFE /* LZBaseSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBaseSettingViewController.h; sourceTree = "<group>"; };
+		18042D481C92434600BD3AFE /* LZBaseSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBaseSettingViewController.m; sourceTree = "<group>"; };
+		18042D4A1C92434F00BD3AFE /* LZArrowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZArrowItem.h; sourceTree = "<group>"; };
+		18042D4B1C92434F00BD3AFE /* LZArrowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZArrowItem.m; sourceTree = "<group>"; };
+		18042D4C1C92434F00BD3AFE /* LZSettingGroupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSettingGroupItem.h; sourceTree = "<group>"; };
+		18042D4D1C92434F00BD3AFE /* LZSettingGroupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSettingGroupItem.m; sourceTree = "<group>"; };
+		18042D4E1C92434F00BD3AFE /* LZSettingRowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSettingRowItem.h; sourceTree = "<group>"; };
+		18042D4F1C92434F00BD3AFE /* LZSettingRowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSettingRowItem.m; sourceTree = "<group>"; };
+		18042D501C92434F00BD3AFE /* LZSwitchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSwitchItem.h; sourceTree = "<group>"; };
+		18042D511C92434F00BD3AFE /* LZSwitchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSwitchItem.m; sourceTree = "<group>"; };
+		18042D561C92435900BD3AFE /* LZSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSettingCell.h; sourceTree = "<group>"; };
+		18042D571C92435900BD3AFE /* LZSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSettingCell.m; sourceTree = "<group>"; };
+		18042D591C9243F300BD3AFE /* LZSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSettingTableViewController.h; sourceTree = "<group>"; };
+		18042D5A1C9243F300BD3AFE /* LZSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSettingTableViewController.m; sourceTree = "<group>"; };
+		18042D821C925E7800BD3AFE /* LZRightImageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZRightImageItem.h; sourceTree = "<group>"; };
+		18042D831C925E7800BD3AFE /* LZRightImageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZRightImageItem.m; sourceTree = "<group>"; };
 		182E2A7F1C8C89FE00836441 /* LZNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		182E2A8E1C8C89FE00836441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182E2A931C8C89FE00836441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,6 +93,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18042D431C92431800BD3AFE /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				18042D441C92431800BD3AFE /* Controller */,
+				18042D451C92431800BD3AFE /* Model */,
+				18042D461C92431800BD3AFE /* View */,
+			);
+			path = "Setting(设置)";
+			sourceTree = "<group>";
+		};
+		18042D441C92431800BD3AFE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18042D591C9243F300BD3AFE /* LZSettingTableViewController.h */,
+				18042D5A1C9243F300BD3AFE /* LZSettingTableViewController.m */,
+				18042D471C92434600BD3AFE /* LZBaseSettingViewController.h */,
+				18042D481C92434600BD3AFE /* LZBaseSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18042D451C92431800BD3AFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18042D4A1C92434F00BD3AFE /* LZArrowItem.h */,
+				18042D4B1C92434F00BD3AFE /* LZArrowItem.m */,
+				18042D4C1C92434F00BD3AFE /* LZSettingGroupItem.h */,
+				18042D4D1C92434F00BD3AFE /* LZSettingGroupItem.m */,
+				18042D4E1C92434F00BD3AFE /* LZSettingRowItem.h */,
+				18042D4F1C92434F00BD3AFE /* LZSettingRowItem.m */,
+				18042D501C92434F00BD3AFE /* LZSwitchItem.h */,
+				18042D511C92434F00BD3AFE /* LZSwitchItem.m */,
+				18042D821C925E7800BD3AFE /* LZRightImageItem.h */,
+				18042D831C925E7800BD3AFE /* LZRightImageItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18042D461C92431800BD3AFE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18042D561C92435900BD3AFE /* LZSettingCell.h */,
+				18042D571C92435900BD3AFE /* LZSettingCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		182E2A761C8C89FE00836441 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +178,7 @@
 		1880F6C81C905664005B2456 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				18042D431C92431800BD3AFE /* Setting(设置) */,
 				1880F6C91C905664005B2456 /* Main */,
 				1880F6CD1C905664005B2456 /* News(新闻) */,
 				1880F6D71C905664005B2456 /* Profile(我) */,
@@ -423,6 +495,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18042D491C92434600BD3AFE /* LZBaseSettingViewController.m in Sources */,
 				1880F7091C905A6B005B2456 /* LZBtn.m in Sources */,
 				1880F7011C9059F0005B2456 /* UIBarButtonItem+LZExtension.m in Sources */,
 				1880F6EE1C90595D005B2456 /* LZNewsTableViewController.m in Sources */,
@@ -430,13 +503,20 @@
 				1880F6E81C905664005B2456 /* main.m in Sources */,
 				1880F70D1C905AB3005B2456 /* LZNavigationController.m in Sources */,
 				1880F6F71C9059A0005B2456 /* LZSeeListenTableViewController.m in Sources */,
+				18042D541C92434F00BD3AFE /* LZSettingRowItem.m in Sources */,
+				18042D521C92434F00BD3AFE /* LZArrowItem.m in Sources */,
 				1880F6F41C905993005B2456 /* LZProfileTableViewController.m in Sources */,
 				1880F6F11C90597D005B2456 /* LZReadTableViewController.m in Sources */,
 				1880F7031C9059F0005B2456 /* UIView+LZExtension.m in Sources */,
+				18042D531C92434F00BD3AFE /* LZSettingGroupItem.m in Sources */,
+				18042D581C92435900BD3AFE /* LZSettingCell.m in Sources */,
+				18042D551C92434F00BD3AFE /* LZSwitchItem.m in Sources */,
 				1880F7021C9059F0005B2456 /* UIImage+image.m in Sources */,
 				1880F70A1C905A6B005B2456 /* LZTabBar.m in Sources */,
 				1880F6E71C905664005B2456 /* AppDelegate.m in Sources */,
+				18042D841C925E7800BD3AFE /* LZRightImageItem.m in Sources */,
 				1880F6FA1C9059AC005B2456 /* LZThemeTableViewController.m in Sources */,
+				18042D5B1C9243F300BD3AFE /* LZSettingTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

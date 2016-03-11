@@ -29,6 +29,11 @@
         UITabBarItem *item = itemArray[i];
         [btn setImage:item.image forState:UIControlStateNormal];
         [btn setImage:item.selectedImage forState:UIControlStateSelected];
+        // 设置文字
+        [btn setTitle:item.title forState:UIControlStateNormal];
+        // 设置选中文字的颜色
+        [btn setTitleColor:[UIColor redColor] forState:UIControlStateSelected];
+        
         // 添加按钮监听事件
         [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchDown];
         [self addSubview:btn];

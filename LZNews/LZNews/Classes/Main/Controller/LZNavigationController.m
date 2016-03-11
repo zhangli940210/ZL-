@@ -19,32 +19,28 @@
 // 当前类或者它的子类第一次使用的时候调用.
 + (void)initialize {
     
-    //获取整个应用程序下所有的导航条.
-    //UINavigationBar *bar = [UINavigationBar appearance];
-    
     //获取指定类下面的导航条
     UINavigationBar *bar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[[LZNavigationController class]]];
     
     //设置导航条
     //设置背景(设置背影图片时, 必须得要使用)
-//    [bar setBackgroundImage:[UIImage imageNamed:@"NavBar64"] forBarMetrics:UIBarMetricsDefault];
+    [bar setBackgroundImage:[UIImage imageNamed:@"NavBar64"] forBarMetrics:UIBarMetricsDefault];
     //设置导航条上的标题颜色
     
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
-    dict[NSForegroundColorAttributeName] = [UIColor greenColor];
+    dict[NSForegroundColorAttributeName] = [UIColor whiteColor];
     dict[NSFontAttributeName] = [UIFont boldSystemFontOfSize:20];
-    
     [bar setTitleTextAttributes:dict];
+    
     
     [bar setTintColor:[UIColor whiteColor]];
     
     UIBarButtonItem *barItem = [UIBarButtonItem appearance];
     NSMutableDictionary *dict2 = [NSMutableDictionary dictionary];
-    dict2[NSForegroundColorAttributeName] = [UIColor blueColor];
+//    dict2[NSForegroundColorAttributeName] = [UIColor blueColor];
     [barItem setTitleTextAttributes:dict2 forState:UIControlStateNormal];
     
     // 让“我的彩票”四个字往上偏移64，使其隐藏
-    //    [barItem setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -64) forBarMetrics:UIBarMetricsDefault];
     [barItem setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -64) forBarMetrics:UIBarMetricsDefault];
 }
 
