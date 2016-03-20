@@ -19,6 +19,8 @@
 		18042E6E1C93338800BD3AFE /* LZNewFeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042E6C1C93338800BD3AFE /* LZNewFeatureCell.m */; };
 		18042E761C9333B200BD3AFE /* LZRootTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042E721C9333B200BD3AFE /* LZRootTool.m */; };
 		18042E771C9333B200BD3AFE /* LZSaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042E751C9333B200BD3AFE /* LZSaveTool.m */; };
+		181FBF3E1C9CF841009AA408 /* LZPushSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FBF3D1C9CF841009AA408 /* LZPushSettingTableViewController.m */; };
+		181FBF481C9CFD39009AA408 /* LZProgramaSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FBF471C9CFD39009AA408 /* LZProgramaSettingTableViewController.m */; };
 		182E2A8F1C8C89FE00836441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182E2A8E1C8C89FE00836441 /* Assets.xcassets */; };
 		1880F6E71C905664005B2456 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6D31C905664005B2456 /* AppDelegate.m */; };
 		1880F6E81C905664005B2456 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6D61C905664005B2456 /* main.m */; };
@@ -34,6 +36,23 @@
 		1880F7091C905A6B005B2456 /* LZBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F7061C905A6B005B2456 /* LZBtn.m */; };
 		1880F70A1C905A6B005B2456 /* LZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F7081C905A6B005B2456 /* LZTabBar.m */; };
 		1880F70D1C905AB3005B2456 /* LZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F70C1C905AB3005B2456 /* LZNavigationController.m */; };
+		18F9D4BA1C93C68E0098A314 /* LZPersonalSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9D4B91C93C68E0098A314 /* LZPersonalSettingTableViewController.m */; };
+		18F9D4CF1C9435150098A314 /* LZTextFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9D4CE1C9435150098A314 /* LZTextFont.m */; };
+		18F9D4D51C9435C80098A314 /* LZTextFontCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9D4D31C9435C80098A314 /* LZTextFontCell.m */; };
+		18F9D4D61C9435C80098A314 /* LZTextFontCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F9D4D41C9435C80098A314 /* LZTextFontCell.xib */; };
+		18F9D4D91C9437BF0098A314 /* LZTextFontTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9D4D81C9437BF0098A314 /* LZTextFontTableViewController.m */; };
+		18F9D4F21C9438070098A314 /* MJDictionaryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9D4DC1C9438070098A314 /* MJDictionaryCache.m */; };
+		18F9D4F31C9438070098A314 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9D4DF1C9438070098A314 /* MJExtensionConst.m */; };
+		18F9D4F41C9438070098A314 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9D4E11C9438070098A314 /* MJFoundation.m */; };
+		18F9D4F51C9438070098A314 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9D4E31C9438070098A314 /* MJProperty.m */; };
+		18F9D4F61C9438070098A314 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9D4E51C9438070098A314 /* MJPropertyKey.m */; };
+		18F9D4F71C9438070098A314 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9D4E71C9438070098A314 /* MJPropertyType.m */; };
+		18F9D4F81C9438070098A314 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9D4E91C9438070098A314 /* NSObject+MJClass.m */; };
+		18F9D4F91C9438070098A314 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9D4EB1C9438070098A314 /* NSObject+MJCoding.m */; };
+		18F9D4FA1C9438070098A314 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9D4ED1C9438070098A314 /* NSObject+MJKeyValue.m */; };
+		18F9D4FB1C9438070098A314 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9D4EF1C9438070098A314 /* NSObject+MJProperty.m */; };
+		18F9D4FC1C9438070098A314 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9D4F11C9438070098A314 /* NSString+MJExtension.m */; };
+		18F9D5211C945DE50098A314 /* textFont.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18F9D5201C945DE50098A314 /* textFont.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +80,10 @@
 		18042E721C9333B200BD3AFE /* LZRootTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZRootTool.m; sourceTree = "<group>"; };
 		18042E741C9333B200BD3AFE /* LZSaveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSaveTool.h; sourceTree = "<group>"; };
 		18042E751C9333B200BD3AFE /* LZSaveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSaveTool.m; sourceTree = "<group>"; };
+		181FBF3C1C9CF841009AA408 /* LZPushSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPushSettingTableViewController.h; sourceTree = "<group>"; };
+		181FBF3D1C9CF841009AA408 /* LZPushSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPushSettingTableViewController.m; sourceTree = "<group>"; };
+		181FBF461C9CFD39009AA408 /* LZProgramaSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZProgramaSettingTableViewController.h; sourceTree = "<group>"; };
+		181FBF471C9CFD39009AA408 /* LZProgramaSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZProgramaSettingTableViewController.m; sourceTree = "<group>"; };
 		182E2A7F1C8C89FE00836441 /* LZNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		182E2A8E1C8C89FE00836441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182E2A931C8C89FE00836441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -92,6 +115,39 @@
 		1880F7081C905A6B005B2456 /* LZTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTabBar.m; sourceTree = "<group>"; };
 		1880F70B1C905AB3005B2456 /* LZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZNavigationController.h; sourceTree = "<group>"; };
 		1880F70C1C905AB3005B2456 /* LZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZNavigationController.m; sourceTree = "<group>"; };
+		18F9D4B81C93C68E0098A314 /* LZPersonalSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPersonalSettingTableViewController.h; sourceTree = "<group>"; };
+		18F9D4B91C93C68E0098A314 /* LZPersonalSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPersonalSettingTableViewController.m; sourceTree = "<group>"; };
+		18F9D4CD1C9435150098A314 /* LZTextFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTextFont.h; sourceTree = "<group>"; };
+		18F9D4CE1C9435150098A314 /* LZTextFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTextFont.m; sourceTree = "<group>"; };
+		18F9D4D21C9435C80098A314 /* LZTextFontCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTextFontCell.h; sourceTree = "<group>"; };
+		18F9D4D31C9435C80098A314 /* LZTextFontCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTextFontCell.m; sourceTree = "<group>"; };
+		18F9D4D41C9435C80098A314 /* LZTextFontCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZTextFontCell.xib; sourceTree = "<group>"; };
+		18F9D4D71C9437BF0098A314 /* LZTextFontTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTextFontTableViewController.h; sourceTree = "<group>"; };
+		18F9D4D81C9437BF0098A314 /* LZTextFontTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTextFontTableViewController.m; sourceTree = "<group>"; };
+		18F9D4DB1C9438070098A314 /* MJDictionaryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDictionaryCache.h; sourceTree = "<group>"; };
+		18F9D4DC1C9438070098A314 /* MJDictionaryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDictionaryCache.m; sourceTree = "<group>"; };
+		18F9D4DD1C9438070098A314 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		18F9D4DE1C9438070098A314 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		18F9D4DF1C9438070098A314 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		18F9D4E01C9438070098A314 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		18F9D4E11C9438070098A314 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		18F9D4E21C9438070098A314 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		18F9D4E31C9438070098A314 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		18F9D4E41C9438070098A314 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		18F9D4E51C9438070098A314 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		18F9D4E61C9438070098A314 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		18F9D4E71C9438070098A314 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		18F9D4E81C9438070098A314 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		18F9D4E91C9438070098A314 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		18F9D4EA1C9438070098A314 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		18F9D4EB1C9438070098A314 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		18F9D4EC1C9438070098A314 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		18F9D4ED1C9438070098A314 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		18F9D4EE1C9438070098A314 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		18F9D4EF1C9438070098A314 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		18F9D4F01C9438070098A314 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		18F9D4F11C9438070098A314 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		18F9D5201C945DE50098A314 /* textFont.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = textFont.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +168,8 @@
 				18042D451C92431800BD3AFE /* Model */,
 				18042D461C92431800BD3AFE /* View */,
 			);
-			path = "Setting(设置)";
+			name = "Setting(设置)";
+			path = "../Setting(设置)";
 			sourceTree = "<group>";
 		};
 		18042D441C92431800BD3AFE /* Controller */ = {
@@ -214,6 +271,52 @@
 			path = "Save(存储业务类)";
 			sourceTree = "<group>";
 		};
+		181FBF3B1C9CE723009AA408 /* LZTextFontTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18F9D4D71C9437BF0098A314 /* LZTextFontTableViewController.h */,
+				18F9D4D81C9437BF0098A314 /* LZTextFontTableViewController.m */,
+			);
+			name = LZTextFontTableViewController;
+			sourceTree = "<group>";
+		};
+		181FBF3F1C9CF853009AA408 /* LZPushSettingTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				181FBF3C1C9CF841009AA408 /* LZPushSettingTableViewController.h */,
+				181FBF3D1C9CF841009AA408 /* LZPushSettingTableViewController.m */,
+			);
+			name = LZPushSettingTableViewController;
+			sourceTree = "<group>";
+		};
+		181FBF401C9CFAA9009AA408 /* LZTextFont */ = {
+			isa = PBXGroup;
+			children = (
+				18F9D4CD1C9435150098A314 /* LZTextFont.h */,
+				18F9D4CE1C9435150098A314 /* LZTextFont.m */,
+			);
+			name = LZTextFont;
+			sourceTree = "<group>";
+		};
+		181FBF411C9CFAB2009AA408 /* LZTextFontCell */ = {
+			isa = PBXGroup;
+			children = (
+				18F9D4D21C9435C80098A314 /* LZTextFontCell.h */,
+				18F9D4D31C9435C80098A314 /* LZTextFontCell.m */,
+				18F9D4D41C9435C80098A314 /* LZTextFontCell.xib */,
+			);
+			name = LZTextFontCell;
+			sourceTree = "<group>";
+		};
+		181FBF491C9CFD49009AA408 /* LZProgramaSettingTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				181FBF461C9CFD39009AA408 /* LZProgramaSettingTableViewController.h */,
+				181FBF471C9CFD39009AA408 /* LZProgramaSettingTableViewController.m */,
+			);
+			name = LZProgramaSettingTableViewController;
+			sourceTree = "<group>";
+		};
 		182E2A761C8C89FE00836441 = {
 			isa = PBXGroup;
 			children = (
@@ -242,6 +345,7 @@
 		182E2A821C8C89FE00836441 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18F9D5201C945DE50098A314 /* textFont.plist */,
 				182E2A8E1C8C89FE00836441 /* Assets.xcassets */,
 				182E2A931C8C89FE00836441 /* Info.plist */,
 				1880F7041C905A12005B2456 /* LZNews.pch */,
@@ -254,7 +358,6 @@
 			children = (
 				18042E6F1C9333B200BD3AFE /* Tool */,
 				18042E651C93338800BD3AFE /* NewFeature(新特性) */,
-				18042D431C92431800BD3AFE /* Setting(设置) */,
 				1880F6C91C905664005B2456 /* Main */,
 				1880F6CD1C905664005B2456 /* News(新闻) */,
 				1880F6D71C905664005B2456 /* Profile(我) */,
@@ -366,6 +469,7 @@
 		1880F6D51C905664005B2456 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				18F9D4DA1C9438070098A314 /* MJExtension */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -373,6 +477,7 @@
 		1880F6D71C905664005B2456 /* Profile(我) */ = {
 			isa = PBXGroup;
 			children = (
+				18042D431C92431800BD3AFE /* Setting(设置) */,
 				1880F6D81C905664005B2456 /* Controller */,
 				1880F6D91C905664005B2456 /* Model */,
 				1880F6DA1C905664005B2456 /* View */,
@@ -383,8 +488,11 @@
 		1880F6D81C905664005B2456 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1880F6F21C905993005B2456 /* LZProfileTableViewController.h */,
-				1880F6F31C905993005B2456 /* LZProfileTableViewController.m */,
+				18F9D4BB1C93C6950098A314 /* LZProfileTableViewController */,
+				18F9D4BC1C93C69E0098A314 /* LZPersonalSettingTableViewController */,
+				181FBF3B1C9CE723009AA408 /* LZTextFontTableViewController */,
+				181FBF3F1C9CF853009AA408 /* LZPushSettingTableViewController */,
+				181FBF491C9CFD49009AA408 /* LZProgramaSettingTableViewController */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -392,6 +500,7 @@
 		1880F6D91C905664005B2456 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				181FBF401C9CFAA9009AA408 /* LZTextFont */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -399,6 +508,7 @@
 		1880F6DA1C905664005B2456 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				181FBF411C9CFAB2009AA408 /* LZTextFontCell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -502,6 +612,54 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		18F9D4BB1C93C6950098A314 /* LZProfileTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1880F6F21C905993005B2456 /* LZProfileTableViewController.h */,
+				1880F6F31C905993005B2456 /* LZProfileTableViewController.m */,
+			);
+			name = LZProfileTableViewController;
+			sourceTree = "<group>";
+		};
+		18F9D4BC1C93C69E0098A314 /* LZPersonalSettingTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18F9D4B81C93C68E0098A314 /* LZPersonalSettingTableViewController.h */,
+				18F9D4B91C93C68E0098A314 /* LZPersonalSettingTableViewController.m */,
+			);
+			name = LZPersonalSettingTableViewController;
+			sourceTree = "<group>";
+		};
+		18F9D4DA1C9438070098A314 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				18F9D4DB1C9438070098A314 /* MJDictionaryCache.h */,
+				18F9D4DC1C9438070098A314 /* MJDictionaryCache.m */,
+				18F9D4DD1C9438070098A314 /* MJExtension.h */,
+				18F9D4DE1C9438070098A314 /* MJExtensionConst.h */,
+				18F9D4DF1C9438070098A314 /* MJExtensionConst.m */,
+				18F9D4E01C9438070098A314 /* MJFoundation.h */,
+				18F9D4E11C9438070098A314 /* MJFoundation.m */,
+				18F9D4E21C9438070098A314 /* MJProperty.h */,
+				18F9D4E31C9438070098A314 /* MJProperty.m */,
+				18F9D4E41C9438070098A314 /* MJPropertyKey.h */,
+				18F9D4E51C9438070098A314 /* MJPropertyKey.m */,
+				18F9D4E61C9438070098A314 /* MJPropertyType.h */,
+				18F9D4E71C9438070098A314 /* MJPropertyType.m */,
+				18F9D4E81C9438070098A314 /* NSObject+MJClass.h */,
+				18F9D4E91C9438070098A314 /* NSObject+MJClass.m */,
+				18F9D4EA1C9438070098A314 /* NSObject+MJCoding.h */,
+				18F9D4EB1C9438070098A314 /* NSObject+MJCoding.m */,
+				18F9D4EC1C9438070098A314 /* NSObject+MJKeyValue.h */,
+				18F9D4ED1C9438070098A314 /* NSObject+MJKeyValue.m */,
+				18F9D4EE1C9438070098A314 /* NSObject+MJProperty.h */,
+				18F9D4EF1C9438070098A314 /* NSObject+MJProperty.m */,
+				18F9D4F01C9438070098A314 /* NSString+MJExtension.h */,
+				18F9D4F11C9438070098A314 /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -534,6 +692,7 @@
 				TargetAttributes = {
 					182E2A7E1C8C89FE00836441 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5J4983VAR8;
 					};
 				};
 			};
@@ -560,6 +719,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F9D4D61C9435C80098A314 /* LZTextFontCell.xib in Resources */,
+				18F9D5211C945DE50098A314 /* textFont.plist in Resources */,
 				182E2A8F1C8C89FE00836441 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -575,9 +736,21 @@
 				1880F7091C905A6B005B2456 /* LZBtn.m in Sources */,
 				18042E771C9333B200BD3AFE /* LZSaveTool.m in Sources */,
 				1880F7011C9059F0005B2456 /* UIBarButtonItem+LZExtension.m in Sources */,
+				18F9D4FC1C9438070098A314 /* NSString+MJExtension.m in Sources */,
 				1880F6EE1C90595D005B2456 /* LZNewsTableViewController.m in Sources */,
+				18F9D4CF1C9435150098A314 /* LZTextFont.m in Sources */,
 				1880F6EB1C9058D6005B2456 /* LZTabBarController.m in Sources */,
+				18F9D4FB1C9438070098A314 /* NSObject+MJProperty.m in Sources */,
+				18F9D4F51C9438070098A314 /* MJProperty.m in Sources */,
 				18042E761C9333B200BD3AFE /* LZRootTool.m in Sources */,
+				18F9D4F71C9438070098A314 /* MJPropertyType.m in Sources */,
+				18F9D4F31C9438070098A314 /* MJExtensionConst.m in Sources */,
+				18F9D4F21C9438070098A314 /* MJDictionaryCache.m in Sources */,
+				18F9D4BA1C93C68E0098A314 /* LZPersonalSettingTableViewController.m in Sources */,
+				18F9D4F81C9438070098A314 /* NSObject+MJClass.m in Sources */,
+				181FBF481C9CFD39009AA408 /* LZProgramaSettingTableViewController.m in Sources */,
+				18F9D4D91C9437BF0098A314 /* LZTextFontTableViewController.m in Sources */,
+				18F9D4F41C9438070098A314 /* MJFoundation.m in Sources */,
 				1880F6E81C905664005B2456 /* main.m in Sources */,
 				1880F70D1C905AB3005B2456 /* LZNavigationController.m in Sources */,
 				1880F6F71C9059A0005B2456 /* LZSeeListenTableViewController.m in Sources */,
@@ -586,16 +759,21 @@
 				1880F6F41C905993005B2456 /* LZProfileTableViewController.m in Sources */,
 				1880F6F11C90597D005B2456 /* LZReadTableViewController.m in Sources */,
 				1880F7031C9059F0005B2456 /* UIView+LZExtension.m in Sources */,
+				18F9D4F61C9438070098A314 /* MJPropertyKey.m in Sources */,
 				18042D531C92434F00BD3AFE /* LZSettingGroupItem.m in Sources */,
 				18042D581C92435900BD3AFE /* LZSettingCell.m in Sources */,
 				18042D551C92434F00BD3AFE /* LZSwitchItem.m in Sources */,
+				18F9D4FA1C9438070098A314 /* NSObject+MJKeyValue.m in Sources */,
 				18042E6D1C93338800BD3AFE /* LZNewFeatureViewController.m in Sources */,
 				18042E6E1C93338800BD3AFE /* LZNewFeatureCell.m in Sources */,
 				1880F7021C9059F0005B2456 /* UIImage+image.m in Sources */,
 				1880F70A1C905A6B005B2456 /* LZTabBar.m in Sources */,
 				1880F6E71C905664005B2456 /* AppDelegate.m in Sources */,
 				18042D841C925E7800BD3AFE /* LZRightImageItem.m in Sources */,
+				18F9D4F91C9438070098A314 /* NSObject+MJCoding.m in Sources */,
+				181FBF3E1C9CF841009AA408 /* LZPushSettingTableViewController.m in Sources */,
 				1880F6FA1C9059AC005B2456 /* LZThemeTableViewController.m in Sources */,
+				18F9D4D51C9435C80098A314 /* LZTextFontCell.m in Sources */,
 				18042D5B1C9243F300BD3AFE /* LZSettingTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -688,12 +866,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = LZNews/LZNews.pch;
 				INFOPLIST_FILE = LZNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = m14a.cn.LZNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -702,12 +884,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = LZNews/LZNews.pch;
 				INFOPLIST_FILE = LZNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = m14a.cn.LZNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

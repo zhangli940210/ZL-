@@ -50,7 +50,7 @@
     }else if ([rowItem isKindOfClass:[LZRightImageItem class]]){
         LZRightImageItem *riItem = (LZRightImageItem *)rowItem;
         self.accessoryView = riItem.rightBtn;
-    }
+    } 
 }
 
 

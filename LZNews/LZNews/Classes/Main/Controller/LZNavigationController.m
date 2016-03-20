@@ -19,9 +19,11 @@
 // 当前类或者它的子类第一次使用的时候调用.
 + (void)initialize {
     
-    //获取指定类下面的导航条
-    UINavigationBar *bar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[[LZNavigationController class]]];
-    
+    // 获取指定类下面的导航条
+    // iOS9
+//    UINavigationBar *bar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[[LZNavigationController class]]];
+    // iOS7
+    UINavigationBar *bar = [UINavigationBar appearance];
     //设置导航条
     //设置背景(设置背影图片时, 必须得要使用)
     [bar setBackgroundImage:[UIImage imageNamed:@"NavBar64"] forBarMetrics:UIBarMetricsDefault];

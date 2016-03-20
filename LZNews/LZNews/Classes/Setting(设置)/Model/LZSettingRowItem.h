@@ -17,4 +17,7 @@ typedef void(^pBlock)(NSIndexPath *);
 /** 快速创建模型*/
 + (instancetype)settingRowItemWithImage:(UIImage *)image title:(NSString *)title;
 
+/** 隐藏属性*/
+//@property (nonatomic, assign, getter=isHidden) BOOL hidden;
+
 @end
