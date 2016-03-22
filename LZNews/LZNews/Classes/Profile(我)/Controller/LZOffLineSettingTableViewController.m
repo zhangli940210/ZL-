@@ -1,79 +1,81 @@
 //
-//  LZProgramaSettingTableViewController.m
+//  LZOffLineSettingSettingTableViewController.m
 //  LZNews
 //
-//  Created by apple on 16/3/19.
+//  Created by apple on 16/3/23.
 //  Copyright © 2016年 m14a.cn. All rights reserved.
 //
 
-#import "LZProgramaSettingTableViewController.h"
+#import "LZOffLineSettingTableViewController.h"
 
-@interface LZProgramaSettingTableViewController ()
+@interface LZOffLineSettingTableViewController ()
 
 @end
 
-@implementation LZProgramaSettingTableViewController
+@implementation LZOffLineSettingTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     // 设置标题
-    self.title = @"栏目插件设置";
+    self.title = @"离线设置";
     //添加1组
     [self addGroup0];
+    [self addGroup1];
+}
+
+- (void)addGroup0
+{
+    LZSwitchItem *item = [LZSwitchItem settingRowItemWithImage:nil title:@"匿名跟帖"];
+    item.isChoose = YES;
+    // 创建一个行数组
+    NSArray *rowArray = @[item];
+    
+    // 创建一个组模型
+    LZSettingGroupItem *groupItem = [LZSettingGroupItem settingItemWithRowArray:rowArray];
+//    groupItem.footerT = @"其他网友将不会看到你的用户名,头像和个人主页";
+    
+    [self.groupArray addObject:groupItem];
 }
 
 // 第1组
-- (void)addGroup0
+- (void)addGroup1
 {
-    LZSwitchItem *item1 = [LZSwitchItem settingRowItemWithImage:nil title:@"夜间模式"];
-    LZSwitchItem *item2 = [LZSwitchItem settingRowItemWithImage:nil title:@"延边"];
-    LZSwitchItem *item3 = [LZSwitchItem settingRowItemWithImage:nil title:@"财经"];
-    LZSwitchItem *item4 = [LZSwitchItem settingRowItemWithImage:nil title:@"跟帖"];
-    LZSwitchItem *item5 = [LZSwitchItem settingRowItemWithImage:nil title:@"夜间模式"];
-    LZSwitchItem *item6 = [LZSwitchItem settingRowItemWithImage:nil title:@"延边"];
-    LZSwitchItem *item7 = [LZSwitchItem settingRowItemWithImage:nil title:@"夜间模式"];
-    LZSwitchItem *item8 = [LZSwitchItem settingRowItemWithImage:nil title:@"延边"];
-    LZSwitchItem *item9 = [LZSwitchItem settingRowItemWithImage:nil title:@"夜间模式"];
-    LZSwitchItem *item10 = [LZSwitchItem settingRowItemWithImage:nil title:@"延边"];
-    LZSwitchItem *item11 = [LZSwitchItem settingRowItemWithImage:nil title:@"夜间模式"];
-    LZSwitchItem *item12 = [LZSwitchItem settingRowItemWithImage:nil title:@"延边"];
+    LZSwitchItem *item1 = [LZSwitchItem settingRowItemWithImage:nil title:@"头条"];
+    LZSwitchItem *item2 = [LZSwitchItem settingRowItemWithImage:nil title:@"军事"];
+    LZSwitchItem *item3 = [LZSwitchItem settingRowItemWithImage:nil title:@"热点"];
+    LZSwitchItem *item4 = [LZSwitchItem settingRowItemWithImage:nil title:@"历史"];
+    LZSwitchItem *item5 = [LZSwitchItem settingRowItemWithImage:nil title:@"广州"];
+    LZSwitchItem *item6 = [LZSwitchItem settingRowItemWithImage:nil title:@"订阅"];
+    LZSwitchItem *item7 = [LZSwitchItem settingRowItemWithImage:nil title:@"轻松一刻"];
+    LZSwitchItem *item8 = [LZSwitchItem settingRowItemWithImage:nil title:@"原创"];
+    LZSwitchItem *item9 = [LZSwitchItem settingRowItemWithImage:nil title:@"图片"];
+    LZSwitchItem *item10 = [LZSwitchItem settingRowItemWithImage:nil title:@"跟帖"];
+    LZSwitchItem *item11 = [LZSwitchItem settingRowItemWithImage:nil title:@"直播"];
+    LZSwitchItem *item12 = [LZSwitchItem settingRowItemWithImage:nil title:@"游戏"];
     
     item1.isChoose = YES;
-    item1.detailTitle = @"路飞";
     
     item2.isChoose = YES;
-    item2.detailTitle = @"索隆";
     
     item3.isChoose = YES;
-    item3.detailTitle = @"山治";
     
     item4.isChoose = YES;
-    item4.detailTitle = @"娜美";
     
     item5.isChoose = YES;
-    item5.detailTitle = @"罗宾";
     
     item6.isChoose = YES;
-    item6.detailTitle = @"乌索普";
     
     item7.isChoose = YES;
-    item7.detailTitle = @"弗兰基";
     
     item8.isChoose = YES;
-    item8.detailTitle = @"驯鹿";
     
     item9.isChoose = YES;
-    item9.detailTitle = @"红发";
     
     item10.isChoose = YES;
-    item10.detailTitle = @"红发";
     
     item11.isChoose = YES;
-    item11.detailTitle = @"罗杰";
     
     item12.isChoose = YES;
-    item12.detailTitle = @"汉库克";
     
     // 创建一个行数组
     NSArray *rowArray = @[item1, item2, item3, item4, item5, item6,
@@ -98,10 +100,10 @@
 }
 
 // 返回每组的行高
-- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
-{
-    return 20;
-}
+//- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+//{
+//    return 20;
+//}
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -123,5 +125,6 @@
         [cell setPreservesSuperviewLayoutMargins:NO];
     }
 }
+
 
 @end

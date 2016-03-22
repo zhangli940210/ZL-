@@ -11,7 +11,10 @@
 #import "LZTextFontTableViewController.h"
 #import "LZPushSettingTableViewController.h"
 #import "LZProgramaSettingTableViewController.h"
+#import "LZOffLineSettingTableViewController.h"
+#import "LZAboutViewController.h"
 
+#import "MBProgressHUD+MJ.h"
 
 @interface LZSettingTableViewController ()
 
@@ -102,6 +105,7 @@
     LZArrowItem *item2 = [LZArrowItem settingRowItemWithImage:nil title:@"栏目插件设置"];
     item2.desClass = [LZProgramaSettingTableViewController class];
     LZArrowItem *item3 = [LZArrowItem settingRowItemWithImage:nil title:@"离线设置"];
+    item3.desClass = [LZOffLineSettingTableViewController class];
     LZSwitchItem *item4 = [LZSwitchItem settingRowItemWithImage:nil title:@"智能头条"];
     item4.isChoose = YES;
     LZSwitchItem *item5 = [LZSwitchItem settingRowItemWithImage:nil title:@"仅Wi-Fi网络下载图片"];
@@ -122,8 +126,8 @@
     LZArrowItem *item2 = [LZArrowItem settingRowItemWithImage:nil title:@"为网易新闻评分"];
     LZArrowItem *item3 = [LZArrowItem settingRowItemWithImage:nil title:@"态度封面"];
     LZArrowItem *item4 = [LZArrowItem settingRowItemWithImage:nil title:@"关于"];
+    item4.desClass = [LZAboutViewController class];
     
-    //    item2.desClass = [LZScoreViewController class];
     // 创建一个行数组,装的是行模型
     NSArray *rowArray = @[item1, item2, item3, item4];
     // 创建一个组模型
@@ -143,6 +147,14 @@
     // 给Cell赋值模型
     cell.rowItem = rowItem;
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.section == 3 && indexPath.row == 5) {
+        [MBProgressHUD showSuccess:@"清理完毕"];
+    } else { // 保持父类的做法
+        [super tableView:tableView didSelectRowAtIndexPath:indexPath];
+    }
 }
 
 
