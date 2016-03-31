@@ -42,8 +42,6 @@
     self.tableView.tableFooterView = [[UIView alloc] init];
 }
 
-
-
 #pragma mark - Table view data source
 // 每组返回多少行
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
