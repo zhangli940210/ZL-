@@ -2,11 +2,17 @@
 //  LZSeeListenTableViewController.m
 //  LZNews
 //
-//  Created by apple on 16/3/9.
+//  Created by apple on 16/3/31.
 //  Copyright © 2016年 m14a.cn. All rights reserved.
 //
 
 #import "LZSeeListenTableViewController.h"
+#import "LZLuFeiViewController.h"
+#import "LZSuoLongViewController.h"
+#import "LZXiangJiViewController.h"
+#import "LZNaMeiTableViewController.h"
+#import "LZLuoBinTableViewController.h"
+#import "LZXunLuTableViewController.h"
 
 @interface LZSeeListenTableViewController ()
 
@@ -16,79 +22,38 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // 3.添加所有子控制器
+    [self setupAllChildViewController];
+}
+
+#pragma mark - 添加所有子控制器
+// 3.添加所有子控制器
+- (void)setupAllChildViewController
+{
+    LZLuFeiViewController *lufei = [[LZLuFeiViewController alloc] init];
+    lufei.title = @"路飞";
+    [self addChildViewController:lufei];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    LZSuoLongViewController *suolong = [[LZSuoLongViewController alloc] init];
+    suolong.title = @"索隆";
+    [self addChildViewController:suolong];
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-}
-
-
-#pragma mark - Table view data source
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
-}
-
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    LZXiangJiViewController *xiangji = [[LZXiangJiViewController alloc] init];
+    xiangji.title = @"香吉";
+    [self addChildViewController:xiangji];
     
-    // Configure the cell...
+    LZNaMeiTableViewController *namei = [[LZNaMeiTableViewController alloc] init];
+    namei.title = @"娜美";
+    [self addChildViewController:namei];
     
-    return cell;
+    LZLuoBinTableViewController *luobin = [[LZLuoBinTableViewController alloc] init];
+    luobin.title = @"罗宾";
+    [self addChildViewController:luobin];
+    
+    LZXunLuTableViewController *xunlu = [[LZXunLuTableViewController alloc] init];
+    xunlu.title = @"驯鹿";
+    [self addChildViewController:xunlu];
 }
-*/
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

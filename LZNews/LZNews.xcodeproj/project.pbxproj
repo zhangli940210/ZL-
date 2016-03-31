@@ -19,6 +19,18 @@
 		18042E6E1C93338800BD3AFE /* LZNewFeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042E6C1C93338800BD3AFE /* LZNewFeatureCell.m */; };
 		18042E761C9333B200BD3AFE /* LZRootTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042E721C9333B200BD3AFE /* LZRootTool.m */; };
 		18042E771C9333B200BD3AFE /* LZSaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18042E751C9333B200BD3AFE /* LZSaveTool.m */; };
+		181A90C41CAD0F7D005A65E2 /* LZLuFeiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A90B41CAD0F7D005A65E2 /* LZLuFeiViewController.m */; };
+		181A90C51CAD0F7D005A65E2 /* LZLuFeiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181A90B51CAD0F7D005A65E2 /* LZLuFeiViewController.xib */; };
+		181A90C61CAD0F7D005A65E2 /* LZLuoBinTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A90B71CAD0F7D005A65E2 /* LZLuoBinTableViewController.m */; };
+		181A90C71CAD0F7D005A65E2 /* LZNaMeiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A90B91CAD0F7D005A65E2 /* LZNaMeiTableViewController.m */; };
+		181A90C81CAD0F7D005A65E2 /* LZSuoLongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A90BB1CAD0F7D005A65E2 /* LZSuoLongViewController.m */; };
+		181A90C91CAD0F7D005A65E2 /* LZSuoLongViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181A90BC1CAD0F7D005A65E2 /* LZSuoLongViewController.xib */; };
+		181A90CA1CAD0F7D005A65E2 /* LZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A90BE1CAD0F7D005A65E2 /* LZViewController.m */; };
+		181A90CB1CAD0F7D005A65E2 /* LZXiangJiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A90C01CAD0F7D005A65E2 /* LZXiangJiViewController.m */; };
+		181A90CC1CAD0F7D005A65E2 /* LZXiangJiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181A90C11CAD0F7D005A65E2 /* LZXiangJiViewController.xib */; };
+		181A90CD1CAD0F7D005A65E2 /* LZXunLuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A90C31CAD0F7D005A65E2 /* LZXunLuTableViewController.m */; };
+		181A90D01CAD104A005A65E2 /* LZNewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A90CF1CAD104A005A65E2 /* LZNewsTableViewController.m */; };
+		181A90D31CAD1B1A005A65E2 /* LZSeeListenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A90D21CAD1B1A005A65E2 /* LZSeeListenTableViewController.m */; };
 		181FBF3E1C9CF841009AA408 /* LZPushSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FBF3D1C9CF841009AA408 /* LZPushSettingTableViewController.m */; };
 		181FBF481C9CFD39009AA408 /* LZProgramaSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FBF471C9CFD39009AA408 /* LZProgramaSettingTableViewController.m */; };
 		182E2A8F1C8C89FE00836441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182E2A8E1C8C89FE00836441 /* Assets.xcassets */; };
@@ -31,10 +43,8 @@
 		1880F6E71C905664005B2456 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6D31C905664005B2456 /* AppDelegate.m */; };
 		1880F6E81C905664005B2456 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6D61C905664005B2456 /* main.m */; };
 		1880F6EB1C9058D6005B2456 /* LZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6EA1C9058D6005B2456 /* LZTabBarController.m */; };
-		1880F6EE1C90595D005B2456 /* LZNewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6ED1C90595D005B2456 /* LZNewsTableViewController.m */; };
 		1880F6F11C90597D005B2456 /* LZReadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6F01C90597D005B2456 /* LZReadTableViewController.m */; };
 		1880F6F41C905993005B2456 /* LZProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6F31C905993005B2456 /* LZProfileTableViewController.m */; };
-		1880F6F71C9059A0005B2456 /* LZSeeListenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6F61C9059A0005B2456 /* LZSeeListenTableViewController.m */; };
 		1880F6FA1C9059AC005B2456 /* LZThemeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6F91C9059AC005B2456 /* LZThemeTableViewController.m */; };
 		1880F7011C9059F0005B2456 /* UIBarButtonItem+LZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6FC1C9059F0005B2456 /* UIBarButtonItem+LZExtension.m */; };
 		1880F7021C9059F0005B2456 /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6FE1C9059F0005B2456 /* UIImage+image.m */; };
@@ -86,6 +96,27 @@
 		18042E721C9333B200BD3AFE /* LZRootTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZRootTool.m; sourceTree = "<group>"; };
 		18042E741C9333B200BD3AFE /* LZSaveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSaveTool.h; sourceTree = "<group>"; };
 		18042E751C9333B200BD3AFE /* LZSaveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSaveTool.m; sourceTree = "<group>"; };
+		181A90B31CAD0F7D005A65E2 /* LZLuFeiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZLuFeiViewController.h; sourceTree = "<group>"; };
+		181A90B41CAD0F7D005A65E2 /* LZLuFeiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZLuFeiViewController.m; sourceTree = "<group>"; };
+		181A90B51CAD0F7D005A65E2 /* LZLuFeiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZLuFeiViewController.xib; sourceTree = "<group>"; };
+		181A90B61CAD0F7D005A65E2 /* LZLuoBinTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZLuoBinTableViewController.h; sourceTree = "<group>"; };
+		181A90B71CAD0F7D005A65E2 /* LZLuoBinTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZLuoBinTableViewController.m; sourceTree = "<group>"; };
+		181A90B81CAD0F7D005A65E2 /* LZNaMeiTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZNaMeiTableViewController.h; sourceTree = "<group>"; };
+		181A90B91CAD0F7D005A65E2 /* LZNaMeiTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZNaMeiTableViewController.m; sourceTree = "<group>"; };
+		181A90BA1CAD0F7D005A65E2 /* LZSuoLongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSuoLongViewController.h; sourceTree = "<group>"; };
+		181A90BB1CAD0F7D005A65E2 /* LZSuoLongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSuoLongViewController.m; sourceTree = "<group>"; };
+		181A90BC1CAD0F7D005A65E2 /* LZSuoLongViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZSuoLongViewController.xib; sourceTree = "<group>"; };
+		181A90BD1CAD0F7D005A65E2 /* LZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZViewController.h; sourceTree = "<group>"; };
+		181A90BE1CAD0F7D005A65E2 /* LZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZViewController.m; sourceTree = "<group>"; };
+		181A90BF1CAD0F7D005A65E2 /* LZXiangJiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZXiangJiViewController.h; sourceTree = "<group>"; };
+		181A90C01CAD0F7D005A65E2 /* LZXiangJiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZXiangJiViewController.m; sourceTree = "<group>"; };
+		181A90C11CAD0F7D005A65E2 /* LZXiangJiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZXiangJiViewController.xib; sourceTree = "<group>"; };
+		181A90C21CAD0F7D005A65E2 /* LZXunLuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZXunLuTableViewController.h; sourceTree = "<group>"; };
+		181A90C31CAD0F7D005A65E2 /* LZXunLuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZXunLuTableViewController.m; sourceTree = "<group>"; };
+		181A90CE1CAD104A005A65E2 /* LZNewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZNewsTableViewController.h; sourceTree = "<group>"; };
+		181A90CF1CAD104A005A65E2 /* LZNewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZNewsTableViewController.m; sourceTree = "<group>"; };
+		181A90D11CAD1B1A005A65E2 /* LZSeeListenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSeeListenTableViewController.h; sourceTree = "<group>"; };
+		181A90D21CAD1B1A005A65E2 /* LZSeeListenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSeeListenTableViewController.m; sourceTree = "<group>"; };
 		181FBF3C1C9CF841009AA408 /* LZPushSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPushSettingTableViewController.h; sourceTree = "<group>"; };
 		181FBF3D1C9CF841009AA408 /* LZPushSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPushSettingTableViewController.m; sourceTree = "<group>"; };
 		181FBF461C9CFD39009AA408 /* LZProgramaSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZProgramaSettingTableViewController.h; sourceTree = "<group>"; };
@@ -108,14 +139,10 @@
 		1880F6D61C905664005B2456 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1880F6E91C9058D6005B2456 /* LZTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTabBarController.h; sourceTree = "<group>"; };
 		1880F6EA1C9058D6005B2456 /* LZTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTabBarController.m; sourceTree = "<group>"; };
-		1880F6EC1C90595D005B2456 /* LZNewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZNewsTableViewController.h; sourceTree = "<group>"; };
-		1880F6ED1C90595D005B2456 /* LZNewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZNewsTableViewController.m; sourceTree = "<group>"; };
 		1880F6EF1C90597D005B2456 /* LZReadTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZReadTableViewController.h; sourceTree = "<group>"; };
 		1880F6F01C90597D005B2456 /* LZReadTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZReadTableViewController.m; sourceTree = "<group>"; };
 		1880F6F21C905993005B2456 /* LZProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZProfileTableViewController.h; sourceTree = "<group>"; };
 		1880F6F31C905993005B2456 /* LZProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZProfileTableViewController.m; sourceTree = "<group>"; };
-		1880F6F51C9059A0005B2456 /* LZSeeListenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSeeListenTableViewController.h; sourceTree = "<group>"; };
-		1880F6F61C9059A0005B2456 /* LZSeeListenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSeeListenTableViewController.m; sourceTree = "<group>"; };
 		1880F6F81C9059AC005B2456 /* LZThemeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZThemeTableViewController.h; sourceTree = "<group>"; };
 		1880F6F91C9059AC005B2456 /* LZThemeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZThemeTableViewController.m; sourceTree = "<group>"; };
 		1880F6FB1C9059F0005B2456 /* UIBarButtonItem+LZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+LZExtension.h"; sourceTree = "<group>"; };
@@ -285,6 +312,38 @@
 				18042E751C9333B200BD3AFE /* LZSaveTool.m */,
 			);
 			path = "Save(存储业务类)";
+			sourceTree = "<group>";
+		};
+		181A90B11CAD0F57005A65E2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				181A90B21CAD0F7D005A65E2 /* Controller */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		181A90B21CAD0F7D005A65E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				181A90BD1CAD0F7D005A65E2 /* LZViewController.h */,
+				181A90BE1CAD0F7D005A65E2 /* LZViewController.m */,
+				181A90B31CAD0F7D005A65E2 /* LZLuFeiViewController.h */,
+				181A90B41CAD0F7D005A65E2 /* LZLuFeiViewController.m */,
+				181A90B51CAD0F7D005A65E2 /* LZLuFeiViewController.xib */,
+				181A90B61CAD0F7D005A65E2 /* LZLuoBinTableViewController.h */,
+				181A90B71CAD0F7D005A65E2 /* LZLuoBinTableViewController.m */,
+				181A90B81CAD0F7D005A65E2 /* LZNaMeiTableViewController.h */,
+				181A90B91CAD0F7D005A65E2 /* LZNaMeiTableViewController.m */,
+				181A90BA1CAD0F7D005A65E2 /* LZSuoLongViewController.h */,
+				181A90BB1CAD0F7D005A65E2 /* LZSuoLongViewController.m */,
+				181A90BC1CAD0F7D005A65E2 /* LZSuoLongViewController.xib */,
+				181A90BF1CAD0F7D005A65E2 /* LZXiangJiViewController.h */,
+				181A90C01CAD0F7D005A65E2 /* LZXiangJiViewController.m */,
+				181A90C11CAD0F7D005A65E2 /* LZXiangJiViewController.xib */,
+				181A90C21CAD0F7D005A65E2 /* LZXunLuTableViewController.h */,
+				181A90C31CAD0F7D005A65E2 /* LZXunLuTableViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		181FBF3B1C9CE723009AA408 /* LZTextFontTableViewController */ = {
@@ -468,8 +527,8 @@
 		1880F6CE1C905664005B2456 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1880F6EC1C90595D005B2456 /* LZNewsTableViewController.h */,
-				1880F6ED1C90595D005B2456 /* LZNewsTableViewController.m */,
+				181A90CE1CAD104A005A65E2 /* LZNewsTableViewController.h */,
+				181A90CF1CAD104A005A65E2 /* LZNewsTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -491,6 +550,7 @@
 		1880F6D11C905664005B2456 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				181A90B11CAD0F57005A65E2 /* Common */,
 				1880F6D41C905664005B2456 /* Category */,
 				1880F6D51C905664005B2456 /* Lib */,
 				1880F6D61C905664005B2456 /* main.m */,
@@ -609,8 +669,8 @@
 		1880F6E01C905664005B2456 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1880F6F51C9059A0005B2456 /* LZSeeListenTableViewController.h */,
-				1880F6F61C9059A0005B2456 /* LZSeeListenTableViewController.m */,
+				181A90D11CAD1B1A005A65E2 /* LZSeeListenTableViewController.h */,
+				181A90D21CAD1B1A005A65E2 /* LZSeeListenTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -771,6 +831,9 @@
 			files = (
 				18F9D4D61C9435C80098A314 /* LZTextFontCell.xib in Resources */,
 				183FD17A1CA1A9CF0091FF57 /* LZAboutViewController.xib in Resources */,
+				181A90C91CAD0F7D005A65E2 /* LZSuoLongViewController.xib in Resources */,
+				181A90CC1CAD0F7D005A65E2 /* LZXiangJiViewController.xib in Resources */,
+				181A90C51CAD0F7D005A65E2 /* LZLuFeiViewController.xib in Resources */,
 				183FD1741CA1A83A0091FF57 /* MBProgressHUD.bundle in Resources */,
 				18F9D5211C945DE50098A314 /* textFont.plist in Resources */,
 				182E2A8F1C8C89FE00836441 /* Assets.xcassets in Resources */,
@@ -790,32 +853,39 @@
 				18042E771C9333B200BD3AFE /* LZSaveTool.m in Sources */,
 				1880F7011C9059F0005B2456 /* UIBarButtonItem+LZExtension.m in Sources */,
 				18F9D4FC1C9438070098A314 /* NSString+MJExtension.m in Sources */,
-				1880F6EE1C90595D005B2456 /* LZNewsTableViewController.m in Sources */,
 				18F9D4CF1C9435150098A314 /* LZTextFont.m in Sources */,
 				1880F6EB1C9058D6005B2456 /* LZTabBarController.m in Sources */,
 				18F9D4FB1C9438070098A314 /* NSObject+MJProperty.m in Sources */,
 				18F9D4F51C9438070098A314 /* MJProperty.m in Sources */,
 				18042E761C9333B200BD3AFE /* LZRootTool.m in Sources */,
+				181A90C41CAD0F7D005A65E2 /* LZLuFeiViewController.m in Sources */,
 				18F9D4F71C9438070098A314 /* MJPropertyType.m in Sources */,
+				181A90C71CAD0F7D005A65E2 /* LZNaMeiTableViewController.m in Sources */,
 				18F9D4F31C9438070098A314 /* MJExtensionConst.m in Sources */,
 				18F9D4F21C9438070098A314 /* MJDictionaryCache.m in Sources */,
+				181A90D01CAD104A005A65E2 /* LZNewsTableViewController.m in Sources */,
 				18F9D4BA1C93C68E0098A314 /* LZPersonalSettingTableViewController.m in Sources */,
 				183FD16B1CA1A48A0091FF57 /* LZOffLineSettingTableViewController.m in Sources */,
 				18F9D4F81C9438070098A314 /* NSObject+MJClass.m in Sources */,
+				181A90CD1CAD0F7D005A65E2 /* LZXunLuTableViewController.m in Sources */,
 				181FBF481C9CFD39009AA408 /* LZProgramaSettingTableViewController.m in Sources */,
 				18F9D4D91C9437BF0098A314 /* LZTextFontTableViewController.m in Sources */,
 				18F9D4F41C9438070098A314 /* MJFoundation.m in Sources */,
 				1880F6E81C905664005B2456 /* main.m in Sources */,
+				181A90CB1CAD0F7D005A65E2 /* LZXiangJiViewController.m in Sources */,
 				1880F70D1C905AB3005B2456 /* LZNavigationController.m in Sources */,
-				1880F6F71C9059A0005B2456 /* LZSeeListenTableViewController.m in Sources */,
 				18042D541C92434F00BD3AFE /* LZSettingRowItem.m in Sources */,
 				18042D521C92434F00BD3AFE /* LZArrowItem.m in Sources */,
 				183FD1751CA1A83A0091FF57 /* MBProgressHUD.m in Sources */,
 				1880F6F41C905993005B2456 /* LZProfileTableViewController.m in Sources */,
+				181A90C81CAD0F7D005A65E2 /* LZSuoLongViewController.m in Sources */,
 				1880F6F11C90597D005B2456 /* LZReadTableViewController.m in Sources */,
+				181A90C61CAD0F7D005A65E2 /* LZLuoBinTableViewController.m in Sources */,
 				1880F7031C9059F0005B2456 /* UIView+LZExtension.m in Sources */,
+				181A90CA1CAD0F7D005A65E2 /* LZViewController.m in Sources */,
 				18F9D4F61C9438070098A314 /* MJPropertyKey.m in Sources */,
 				18042D531C92434F00BD3AFE /* LZSettingGroupItem.m in Sources */,
+				181A90D31CAD1B1A005A65E2 /* LZSeeListenTableViewController.m in Sources */,
 				18042D581C92435900BD3AFE /* LZSettingCell.m in Sources */,
 				18042D551C92434F00BD3AFE /* LZSwitchItem.m in Sources */,
 				18F9D4FA1C9438070098A314 /* NSObject+MJKeyValue.m in Sources */,

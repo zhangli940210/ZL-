@@ -2,12 +2,12 @@
 //  LZSeeListenTableViewController.h
 //  LZNews
 //
-//  Created by apple on 16/3/9.
+//  Created by apple on 16/3/31.
 //  Copyright © 2016年 m14a.cn. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "LZViewController.h"
 
-@interface LZSeeListenTableViewController : UITableViewController
+@interface LZSeeListenTableViewController : LZViewController
 
 @end
